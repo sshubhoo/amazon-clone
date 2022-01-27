@@ -2,10 +2,13 @@ import React from 'react';
 import './Header.css'
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return <div className="header">
-            <img className="header_logo" src="https://www.bizmonthly.com/wp-content/uploads/2020/04/Amazon-logo-black-template.png"></img>
+            <Link to="/">
+                <img className="header_logo" src="https://www.bizmonthly.com/wp-content/uploads/2020/04/Amazon-logo-black-template.png"></img>
+            </Link>
             <div className="header_searchBar">
                 <input className='header_searchInput' type="text"/>
                 <SearchIcon className='header_SearchIcon'/>
