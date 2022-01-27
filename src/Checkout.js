@@ -1,5 +1,7 @@
 import React from 'react';
 import './Checkout.css';
+import Subtotal from './Subtotal';
+{/*Imported npm i react-currecy-format*/}
 
 function Checkout() {
   return <div className='checkout'>
@@ -12,7 +14,7 @@ function Checkout() {
         </div>
       </div>
       <div className='checkout__right'>
-
+            <Subtotal />
       </div>
   </div>;
 }
