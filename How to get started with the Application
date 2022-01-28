@@ -1,0 +1,18 @@
+Hi this is Shubhodeep, this Application is build with the help of REACT JS. 
+
+This Application is a clone of the very same AMAZON Website. The functionalities that is developed in this application are as follows.
+
+1. Home Page with the products
+2. Login Page with user Authentication - uses Google Accounts - Authentication is done through GOOGLE FIREBASE
+3. Product Page
+4. Shopping Basket
+5. Calculating the basket total
+6. Payment and Checkout using the - GOOGLE FIREBASE
+
+
+Steps needed to run the application into your PC/ MAC or Desktop
+
+1. Clone the repository into your Code Editor
+2. Run the command "npm install" into the terminal
+3. After the node modules required for the application are installed, run the command "npm start". 
+4. The application will automatically open with the link "localhost:3000" with the default browser seleted in your device.
